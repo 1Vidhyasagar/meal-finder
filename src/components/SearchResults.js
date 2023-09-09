@@ -14,10 +14,15 @@ function SearchResults({ results, onWatchVideo }) {
                 <img
                   src={result.strMealThumb}
                   alt={result.strMeal}
-                  className="card-img-top"
+                  className="card-img-top px-2 pt-4"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">{result.strMeal}</h5>
+                  <h5
+                    className="card-title text-secondary
+"
+                  >
+                    {result.strMeal}
+                  </h5>
                   <button
                     onClick={() => onWatchVideo(result.strYoutube)}
                     className="btn btn-dark btn-sm"
