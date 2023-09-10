@@ -29,9 +29,9 @@ function SearchBar({ onSearch }) {
           backgroundColor: "#ff4500",
           color: "white",
           width: "80px",
-          height: "35px",
+          height: "40px",
           marginLeft: "5px",
-          marginBottom: "5px",
+          marginBottom: "8px",
         }}
       >
         Search
